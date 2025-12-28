@@ -1,6 +1,6 @@
 function servo_on_cone_half_circle_small
 % servo_on_cone_half_circle_small.m
-% Mô phỏng servo trên hình nón – CON LĂN CHUYỂN ĐỘNG MƯỢT NHƯ THẬT
+% Mô phỏng servo trên hình nón
 % Điều khiển bằng MPU6050 qua ESP32 (USB-TTL: COM5)
 
     close all; clc;
@@ -147,7 +147,7 @@ function servo_on_cone_half_circle_small
     windowSize = 5;
     ax_buf = zeros(1,windowSize); ay_buf = ax_buf; az_buf = ax_buf;
 
-    %% ----- VÒNG LẶP CHÍNH (CÓ CHUYỂN ĐỘNG MƯỢT) -----
+    %% ----- VÒNG LẶP CHÍNH -----
     while ishandle(fig)
         % === CHUYỂN ĐỘNG MƯỢT ===
         if step_count < transition_steps
