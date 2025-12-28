@@ -17,9 +17,10 @@ Mũ bảo hiểm thông minh tích hợp các tính năng cảnh báo va chạm 
 Dự án phát triển một **mũ bảo hiểm thông minh** tích hợp các tính năng an toàn nâng cao cho người tham gia giao thông, đặc biệt là người điều khiển xe máy và các phương tiện hai bánh.
 
 Các tính năng chính:
-- Cảnh báo va chạm (collision warning) dựa trên cảm biến gia tốc và con quay hồi chuyển.
-- Phát hiện tai nạn và gửi tín hiệu cảnh báo (qua buzzer, đèn LED hoặc kết nối không dây).
-- Mô phỏng chức năng bảo vệ tự động (automatic protection simulation) trên phần mềm **MATLAB/Simulink**.
+- Cảnh báo va chạm dựa trên cảm biến gia tốc và con quay hồi chuyển.
+- Cảnh báo không cài quay mũ, phát hiện nồng độ cồn.
+- Phát hiện tai nạn gửi vị trí , link google map, thời gian về điện thoại người thân bằng module sim768c.
+- Mô phỏng chức năng bảo vệ tự động trên phần mềm **MATLAB/Simulink**.
 
 ### Người dùng chính
 - Người tham gia giao thông điều khiển **xe máy**, **xe gắn máy**, **xe đạp điện**, **xe scooter** và các phương tiện hai bánh khác.
